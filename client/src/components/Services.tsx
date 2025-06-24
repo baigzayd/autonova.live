@@ -31,8 +31,8 @@ export default function Services() {
       title: "Email Management",
       description: "Automated email processing, response generation, and intelligent inbox management.",
       features: ["Smart email sorting", "Auto-response generation", "Follow-up automation"],
-      bgColor: "bg-blue-100",
-      iconColor: "text-blue-600"
+      bgColor: "bg-purple-100",
+      iconColor: "text-purple-600"
     },
     {
       icon: Megaphone,

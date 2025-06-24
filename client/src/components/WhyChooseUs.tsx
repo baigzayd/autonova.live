@@ -83,8 +83,8 @@ export default function WhyChooseUs() {
           </div>
 
           <div className="text-center p-8 bg-card border border-border rounded-2xl">
-            <div className="bg-blue-100 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
-              <Maximize2 className="text-blue-600 h-8 w-8" />
+            <div className="bg-purple-100 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <Maximize2 className="text-purple-600 h-8 w-8" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-card-foreground">Scalable Solutions</h3>
             <p className="text-muted-foreground">Architecture designed to grow with your business, handling increased volumes and complexity effortlessly.</p>

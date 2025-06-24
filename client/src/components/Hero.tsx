@@ -46,11 +46,17 @@ export default function Hero() {
             </div>
           </div>
           <div className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Modern AI automation workspace" 
-              className="rounded-2xl shadow-2xl w-full h-auto"
-            />
+            <div className="bg-gradient-to-br from-purple-900/20 to-purple-800/30 p-16 rounded-2xl border border-purple-500/20 shadow-2xl">
+              <div className="text-center">
+                <div className="bg-purple-500/10 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-12 h-12 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-card-foreground mb-2">AI Automation Hub</h3>
+                <p className="text-muted-foreground">Intelligent workflows running 24/7</p>
+              </div>
+            </div>
             <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-lg border border-border">
               <div className="flex items-center">
                 <div className="bg-green-100 p-2 rounded-lg mr-3">
