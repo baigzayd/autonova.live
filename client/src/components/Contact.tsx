@@ -53,21 +53,21 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-muted/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Let's discuss how AI automation can transform your business. Book a consultation or get in touch today.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Contact Form */}
-          <div className="bg-white p-8 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-bold mb-6">Get Your Free Consultation</h3>
+          <div className="bg-card p-8 rounded-2xl border border-border shadow-lg">
+            <h3 className="text-2xl font-bold mb-6 text-card-foreground">Get Your Free Consultation</h3>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -145,14 +145,14 @@ export default function Contact() {
 
               <Button 
                 type="submit" 
-                className="w-full bg-primary text-white hover:bg-primary/90 py-4 text-lg"
+                className="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-4 text-lg"
                 disabled={submitInquiry.isPending}
               >
                 <Send className="mr-2 h-5 w-5" />
                 {submitInquiry.isPending ? "Sending..." : "Send My Request"}
               </Button>
 
-              <p className="text-sm text-gray-500 text-center">
+              <p className="text-sm text-muted-foreground text-center">
                 We'll respond within 24 hours with a customized consultation proposal.
               </p>
             </form>
@@ -161,16 +161,16 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-8">
             {/* Contact Cards */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-xl font-bold mb-6">Get in Touch</h3>
+            <div className="bg-card p-8 rounded-2xl border border-border shadow-lg">
+              <h3 className="text-xl font-bold mb-6 text-card-foreground">Get in Touch</h3>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <div className="bg-primary/10 p-3 rounded-lg mr-4">
                     <Phone className="text-primary h-5 w-5" />
                   </div>
                   <div>
-                    <div className="font-semibold">Phone</div>
-                    <div className="text-gray-600">+1 (555) 123-4567</div>
+                    <div className="font-semibold text-card-foreground">Phone</div>
+                    <div className="text-muted-foreground">+1 (555) 123-4567</div>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -178,8 +178,8 @@ export default function Contact() {
                     <Mail className="text-accent h-5 w-5" />
                   </div>
                   <div>
-                    <div className="font-semibold">Email</div>
-                    <div className="text-gray-600">hello@autonova.ai</div>
+                    <div className="font-semibold text-card-foreground">Email</div>
+                    <div className="text-muted-foreground">hello@autonova.ai</div>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -187,28 +187,28 @@ export default function Contact() {
                     <Calendar className="text-green-600 h-5 w-5" />
                   </div>
                   <div>
-                    <div className="font-semibold">Book Direct</div>
-                    <div className="text-gray-600">Schedule a consultation call</div>
+                    <div className="font-semibold text-card-foreground">Book Direct</div>
+                    <div className="text-muted-foreground">Schedule a consultation call</div>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* FAQ Quick Answers */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-xl font-bold mb-6">Quick Answers</h3>
+            <div className="bg-card p-8 rounded-2xl border border-border shadow-lg">
+              <h3 className="text-xl font-bold mb-6 text-card-foreground">Quick Answers</h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold mb-2">How long does implementation take?</h4>
-                  <p className="text-sm text-gray-600">Most projects are completed within 6-10 weeks, depending on complexity.</p>
+                  <h4 className="font-semibold mb-2 text-card-foreground">How long does implementation take?</h4>
+                  <p className="text-sm text-muted-foreground">Most projects are completed within 6-10 weeks, depending on complexity.</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Do you work with small businesses?</h4>
-                  <p className="text-sm text-gray-600">Yes! We have solutions for businesses of all sizes, from startups to enterprises.</p>
+                  <h4 className="font-semibold mb-2 text-card-foreground">Do you work with small businesses?</h4>
+                  <p className="text-sm text-muted-foreground">Yes! We have solutions for businesses of all sizes, from startups to enterprises.</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Is ongoing support included?</h4>
-                  <p className="text-sm text-gray-600">All our solutions include comprehensive support and optimization services.</p>
+                  <h4 className="font-semibold mb-2 text-card-foreground">Is ongoing support included?</h4>
+                  <p className="text-sm text-muted-foreground">All our solutions include comprehensive support and optimization services.</p>
                 </div>
               </div>
             </div>

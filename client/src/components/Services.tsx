@@ -69,26 +69,26 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-muted/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
             Our AI Automation Services
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We create custom AI-powered solutions tailored to your specific business needs and workflows.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {services.map((service, index) => (
-            <div key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+            <div key={index} className="bg-card p-8 rounded-2xl border border-border shadow-lg hover:shadow-xl transition-shadow">
               <div className={`${service.bgColor} w-16 h-16 rounded-2xl flex items-center justify-center mb-6`}>
                 <service.icon className={`${service.iconColor} h-8 w-8`} />
               </div>
-              <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-              <p className="text-gray-600 mb-6">{service.description}</p>
-              <ul className="text-sm text-gray-500 space-y-2">
+              <h3 className="text-xl font-bold mb-4 text-card-foreground">{service.title}</h3>
+              <p className="text-muted-foreground mb-6">{service.description}</p>
+              <ul className="text-sm text-muted-foreground space-y-2">
                 {service.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-center">
                     <Check className="text-green-500 mr-2 h-4 w-4 flex-shrink-0" />
@@ -101,13 +101,13 @@ export default function Services() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-white p-12 rounded-2xl shadow-lg">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">Ready to Automate Your Business?</h3>
-          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">Let's discuss how our AI automation solutions can transform your operations and drive growth.</p>
+        <div className="text-center bg-card p-12 rounded-2xl border border-border shadow-lg">
+          <h3 className="text-2xl font-bold text-card-foreground mb-4">Ready to Automate Your Business?</h3>
+          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">Let's discuss how our AI automation solutions can transform your operations and drive growth.</p>
           <Button 
             onClick={scrollToContact}
             size="lg"
-            className="bg-primary text-white hover:bg-primary/90 shadow-lg text-lg px-8 py-4"
+            className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg text-lg px-8 py-4"
           >
             <MessageCircle className="mr-2 h-5 w-5" />
             Discuss Your Automation Needs

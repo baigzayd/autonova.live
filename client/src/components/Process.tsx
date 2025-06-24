@@ -42,13 +42,13 @@ export default function Process() {
   ];
 
   return (
-    <section id="process" className="py-20 bg-gray-50">
+    <section id="process" className="py-20 bg-muted/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
             Our Proven Process
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             From consultation to optimization, we guide you through every step of your automation journey.
           </p>
         </div>
@@ -69,8 +69,8 @@ export default function Process() {
                     {step.number}
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-                    <p className="text-gray-600">{step.description}</p>
+                    <h3 className="text-xl font-bold mb-3 text-foreground">{step.title}</h3>
+                    <p className="text-muted-foreground">{step.description}</p>
                   </div>
                 </div>
               ))}
@@ -79,16 +79,16 @@ export default function Process() {
         </div>
 
         {/* Timeline */}
-        <div className="bg-white p-12 rounded-2xl shadow-lg">
-          <h3 className="text-2xl font-bold text-center mb-8">Typical Project Timeline</h3>
+        <div className="bg-card border border-border p-12 rounded-2xl shadow-lg">
+          <h3 className="text-2xl font-bold text-center mb-8 text-card-foreground">Typical Project Timeline</h3>
           <div className="grid md:grid-cols-4 gap-8">
             {timeline.map((phase, index) => (
               <div key={index} className="text-center">
                 <div className={`${phase.bgColor} p-4 rounded-2xl mb-4 inline-flex`}>
                   <phase.icon className={`${phase.iconColor} h-8 w-8`} />
                 </div>
-                <h4 className="font-semibold mb-2">{phase.title}</h4>
-                <p className="text-sm text-gray-600">{phase.description}</p>
+                <h4 className="font-semibold mb-2 text-card-foreground">{phase.title}</h4>
+                <p className="text-sm text-muted-foreground">{phase.description}</p>
               </div>
             ))}
           </div>
