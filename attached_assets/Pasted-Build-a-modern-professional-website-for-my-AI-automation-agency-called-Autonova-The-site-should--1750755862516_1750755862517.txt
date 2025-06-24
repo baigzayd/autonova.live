@@ -1,0 +1,49 @@
+Build a modern, professional website for my AI automation agency called “Autonova.” The site should educate business owners, decision-makers, and operations managers about the importance and benefits of AI agents and automation.
+
+The homepage must feature a bold introduction to Autonova, a compelling tagline about transforming businesses with AI-powered automation, and strong calls to action such as “Book a Consultation” or “Get Started.”
+
+Include a section that clearly explains what AI agents and automations are, using simple language and engaging visuals or infographics.
+
+Add a detailed services section that highlights our core offerings:
+
+Custom AI automations tailored to each client’s unique workflows
+
+Seamless integration of multiple business apps and platforms
+
+Automated email management and outreach
+
+Cold outreach and sales automation
+
+Lead generation workflows
+
+Content and script automation
+
+Industry-specific and scalable workflow solutions
+
+Create a section with real-world workflow examples and use cases, demonstrating how our automations improve efficiency, reduce manual work, and drive business growth.
+
+Clearly outline our process: from understanding client needs, mapping their systems, building and integrating custom AI automations, to ongoing optimization and support.
+
+Emphasize our unique selling points:
+
+Deep customization and seamless integration (not just generic tools)
+
+End-to-end, industry-specific workflows
+
+Expertise in complex, multi-app integrations
+
+Ongoing support, optimization, and strategic guidance
+
+Security, compliance, and scalability
+
+Positioning as a strategic partner, not just a vendor
+
+Design the site to be clean, tech-forward, and trustworthy, using a color palette that reflects innovation (such as blues, whites, and greys).
+
+Ensure the website is fully mobile responsive and easy to navigate, with clearly labeled sections and intuitive menus.
+
+Include a dedicated “Contact Us” page with a user-friendly form that collects the visitor’s name, email, company name, and a message or inquiry. Optionally, add a dropdown or typesheet for users to specify their interest or the type of automation they need.
+
+The tone should be professional yet approachable, appealing to businesses seeking expert, tailored AI automation solutions.
+
+Make sure the structure allows for easy future expansion, such as adding more services, case studies, or testimonials.
