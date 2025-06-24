@@ -10,18 +10,14 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="pt-16 gradient-secondary">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="animate-fade-in-up">
-            <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
-              Transform Your Business with 
-              <span className="text-primary"> AI-Powered Automation</span>
-            </h1>
+    <section id="home" className="pt-16 gradient-secondary min-h-screen relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28 h-full">
+        <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
+          <div className="animate-fade-in-up relative">
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Autonova helps businesses streamline operations, reduce manual work, and scale efficiently through custom AI agents and intelligent automation workflows.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button 
                 onClick={scrollToContact}
                 size="lg"
@@ -40,16 +36,25 @@ export default function Hero() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
-            <div className="mt-8 flex items-center text-sm text-muted-foreground">
+            <div className="flex items-center text-sm text-muted-foreground">
               <Shield className="text-accent mr-2 h-4 w-4" />
               Trusted by 50+ businesses • Enterprise-grade security
             </div>
+            
+            {/* Large Text Overlay */}
+            <div className="absolute bottom-0 left-0 -mb-32 lg:-mb-40">
+              <div className="text-[20vw] lg:text-[15vw] xl:text-[12vw] font-black leading-none text-primary/20 select-none">
+                <div>plug</div>
+                <div>play.</div>
+                <div>automate.</div>
+              </div>
+            </div>
           </div>
           <div className="relative">
-            <div className="bg-gradient-to-br from-purple-900/20 to-purple-800/30 p-16 rounded-2xl border border-purple-500/20 shadow-2xl">
+            <div className="bg-gradient-to-br from-primary/20 to-primary/30 p-16 rounded-2xl border border-primary/20 shadow-2xl">
               <div className="text-center">
-                <div className="bg-purple-500/10 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-12 h-12 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-primary/10 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-12 h-12 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
