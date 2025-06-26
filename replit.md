@@ -99,7 +99,12 @@ This is a React-based landing page for Autonova, an AI automation agency. The ap
 
 Changelog:
 - June 24, 2025. Initial setup
+- June 26, 2025. Updated hero section with large "plug.", "play.", "automate." typography overlay
+- June 26, 2025. Changed purple color scheme to custom #6b0c75
+- June 26, 2025. Removed Bot logo from navigation
+- June 26, 2025. Refined typography size and repositioned content below large text
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Design preferences: Bold typography overlays, custom purple branding (#6b0c75), minimal navigation.
