@@ -14,13 +14,7 @@ export default function AboutAI() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
-          <div>
-            <img 
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Business workflow automation diagram" 
-              className="rounded-2xl shadow-xl w-full h-auto"
-            />
-          </div>
+          
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-6">How AI Agents Work</h3>
             <div className="space-y-6">

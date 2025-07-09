@@ -22,9 +22,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-primary">
-              Autonova
-            </div>
+
           </div>
           
           {/* Desktop Navigation */}
@@ -54,12 +52,7 @@ export default function Navigation() {
               >
                 Process
               </button>
-              <Button 
-                onClick={() => scrollToSection('contact')}
-                className="bg-primary text-primary-foreground hover:bg-primary/90"
-              >
-                Get Started
-              </Button>
+              
             </div>
           </div>
 

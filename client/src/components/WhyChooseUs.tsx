@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Wrench, PuzzleIcon, Factory, Headphones, Shield, Maximize2, Handshake } from "lucide-react";
+import { Wrench, PuzzleIcon, Factory, Headphones, Shield, Maximize2 } from "lucide-react";
 
 export default function WhyChooseUs() {
   const scrollToContact = () => {
@@ -10,7 +10,7 @@ export default function WhyChooseUs() {
   };
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-8 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
@@ -55,13 +55,6 @@ export default function WhyChooseUs() {
               </div>
             </div>
           </div>
-          <div>
-            <img 
-              src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Modern office technology setup" 
-              className="rounded-2xl shadow-xl w-full h-auto"
-            />
-          </div>
         </div>
 
         {/* Additional USPs */}
@@ -89,23 +82,6 @@ export default function WhyChooseUs() {
             <h3 className="text-xl font-bold mb-3 text-card-foreground">Scalable Solutions</h3>
             <p className="text-muted-foreground">Architecture designed to grow with your business, handling increased volumes and complexity effortlessly.</p>
           </div>
-        </div>
-
-        {/* Strategic Partnership */}
-        <div className="gradient-primary p-12 rounded-2xl text-white text-center">
-          <h3 className="text-3xl font-bold mb-4">Your Strategic Partner, Not Just a Vendor</h3>
-          <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
-            We invest in your success with strategic guidance, proactive optimization, and long-term partnership approach to automation.
-          </p>
-          <Button 
-            onClick={scrollToContact}
-            variant="secondary"
-            size="lg"
-            className="bg-card text-primary border-primary hover:bg-card/80 shadow-lg text-lg px-8 py-4"
-          >
-            <Handshake className="mr-2 h-5 w-5" />
-            Discuss Strategic Partnership
-          </Button>
         </div>
       </div>
     </section>

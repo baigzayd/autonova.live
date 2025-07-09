@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="text-2xl font-bold mb-4 flex items-center">
-              <Bot className="mr-2 h-8 w-8 text-primary" />
+              
               Autonova
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
@@ -40,29 +40,8 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li><button onClick={() => scrollToSection('services')} className="hover:text-white transition-colors">Custom AI Automation</button></li>
-              <li><button onClick={() => scrollToSection('services')} className="hover:text-white transition-colors">App Integration</button></li>
-              <li><button onClick={() => scrollToSection('services')} className="hover:text-white transition-colors">Email Management</button></li>
-              <li><button onClick={() => scrollToSection('services')} className="hover:text-white transition-colors">Sales Automation</button></li>
-              <li><button onClick={() => scrollToSection('services')} className="hover:text-white transition-colors">Lead Generation</button></li>
-            </ul>
-          </div>
-
-          {/* Company */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li><button onClick={() => scrollToSection('about')} className="hover:text-white transition-colors">About AI</button></li>
-              <li><button onClick={() => scrollToSection('process')} className="hover:text-white transition-colors">Our Process</button></li>
-              <li><button onClick={() => scrollToSection('contact')} className="hover:text-white transition-colors">Contact Us</button></li>
-              <li><a href="#" className="hover:text-white transition-colors">Case Studies</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-            </ul>
-          </div>
+          
+          
         </div>
 
         {/* Bottom Footer */}
